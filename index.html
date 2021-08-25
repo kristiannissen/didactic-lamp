@@ -49,8 +49,28 @@
                 <div class="column">1</div>
                 <div class="column">
                   <form>
-                    <input type="text" name="csrftoken" value="">
-                    <input type="submit">
+                    <input type="hidden" name="csrftoken" value="">
+                    <div class="field">
+                      <label class="label">For- &amp; efternavn</label>
+                      <div class="control">
+                        <input class="input" type="text" name="fullname">
+                      </div>
+                    </div>
+                    <div class="field">
+                      <label class="label">E-mailadresse</label>
+                      <div class="control">
+                        <input class="input" type="mail" name="mailaddr">
+                      </div>
+                    </div>
+                    <div class="field">
+                      <label class="label">Firmanavn</label>
+                      <div class="control">
+                        <input class="input" type="text" name="companyname">
+                      </div>
+                    </div>
+                    <div class="buttons">
+                      <input type="submit" value="Send" class="button is-primary">
+                    </div>
                   </form>
                 </div>
               </div>
