@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Hello Kitty</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+      <script type="text/javascript" src="/js/csrf.php"></script>
     </head>
     <body>
         <section class="section">
@@ -47,10 +48,14 @@
               <div class="columns">
                 <div class="column">1</div>
                 <div class="column">
-                  
+                  <form>
+                    <input type="text" name="csrftoken" value="">
+                    <input type="submit">
+                  </form>
                 </div>
               </div>
             </div>
         </section>
+        <script src="/js/form.js"></script>
     </body>
 </html>
