@@ -8,74 +8,69 @@
       <script type="text/javascript" src="/js/csrf.php"></script>
     </head>
     <body>
-        <section class="section">
-            <div class="container">
-              <div class="columns">
-                <div class="column">
-                  <nav class="navbar" role="navigation" aria-label="main navigation">
-                    <div class="navbar-brand">
-                      <a class="navbar-item" href="/">
-                        <img src="https://place-hold.it/200">
-                      </a>
-                      <!-- Burger //-->
-                      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="main-nav">
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                      </a>
-                    </div>
-                    <div class="navbar-menu" id="main-nav">
-                      <div class="navbar-start">
-                        <a class="navbar-item">Metodik</a>
-                        <a class="navbar-item">Ydelser</a>
-                        <a class="navbar-item">Kontakt</a>
-                      </div>
-                    </div>
-                  </nav>
+      <!-- Intro Section //-->
+      <section class="section is-large" id="method">
+        <div class="container">
+          <div class="columns">
+            <div class="column">avatar</div>
+            <div class="column">Om firma</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Method Section //-->
+      <section class="section is-large" id="method">
+        <div class="container">
+          <div class="columns">
+            <div class="column">Hello Kitty</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section //-->
+      <section class="section is-large is-multilined is-centered" id="services">
+        <div class="container">
+          <div class="columns">
+            <div class="column">#1</div>
+            <div class="column">#2</div>
+            <div class="column">#3</div>
+            <div class="column">#4</div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer" id="contact">
+        <div class="columns">
+          <div class="column">
+            <div class="content">
+              <form class="box">
+                <input type="hidden" name="csrftoken" value="">
+                <div class="field">
+                  <label class="label">For- &amp; efternavn</label>
+                  <div class="control">
+                    <input class="input" type="text" name="fullname">
+                  </div>
                 </div>
-              </div>
-              <!-- 1st Section //-->
-              <div class="columns">
-                <div class="column">1</div>
-                <div class="column">2</div>
-              </div>
-              <!-- 2nd Section //-->
-              <div class="columns">
-                <div class="column">1</div>
-                <div class="column">2</div>
-              </div>
-              <!-- 3rd Section //-->
-              <div class="columns">
-                <div class="column">1</div>
-                <div class="column">
-                  <form>
-                    <input type="hidden" name="csrftoken" value="">
-                    <div class="field">
-                      <label class="label">For- &amp; efternavn</label>
-                      <div class="control">
-                        <input class="input" type="text" name="fullname">
-                      </div>
-                    </div>
-                    <div class="field">
-                      <label class="label">E-mailadresse</label>
-                      <div class="control">
-                        <input class="input" type="mail" name="mailaddr">
-                      </div>
-                    </div>
-                    <div class="field">
-                      <label class="label">Firmanavn</label>
-                      <div class="control">
-                        <input class="input" type="text" name="companyname">
-                      </div>
-                    </div>
-                    <div class="buttons">
-                      <input type="submit" value="Send" class="button is-primary">
-                    </div>
-                  </form>
+                <div class="field">
+                  <label class="label">E-mailadresse</label>
+                  <div class="control">
+                    <input class="input" type="mail" name="mailaddr">
+                  </div>
                 </div>
-              </div>
+                <div class="field">
+                  <label class="label">Firmanavn</label>
+                  <div class="control">
+                    <input class="input" type="text" name="companyname">
+                  </div>
+                </div>
+                <div class="buttons">
+                  <input type="submit" value="Send" class="button is-primary">
+                </div>
+              </form>
             </div>
-        </section>
-        <script src="/js/form.js"></script>
+          </div>
+        </div>
+      </footer>
+      <script src="/js/form.js"></script>
     </body>
 </html>
