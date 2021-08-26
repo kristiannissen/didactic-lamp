@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Hello Kitty</title>
+        <title>Ladehoff Management ApS</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
         <link rel="stylesheet" href="/css/site.css">
       <script type="text/javascript" src="/js/csrf.php"></script>
@@ -12,14 +12,26 @@
       <!-- Intro Section //-->
       <section class="section is-large" id="intro">
         <div class="container">
-          <div class="columns">
-            <div class="column">
-              <figure class="image">
-                
-              </figure>
+          <div class="columns header">
+            <div class="column is-one-third">
+              <a href="/"><img src="/img/ladehoff-logo.png"></a>
             </div>
             <div class="column">
-              <a href="#services">Services</a>
+              <nav>
+                <ul>
+                  <li><a href="#method">Metodik</a></li>
+                  <li><a href="#services">Ydelser</a></li>
+                  <li><a href="#contact">Kontakt</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="columns profile">
+            <div class="column">
+              <div id="avatar"></div>
+            </div>
+            <div class="column content">
+              <blockquote class="fade-in">Ladehoff Management er en konsulentvirksomhed, der primært arbejder med rekrutteringsydelser og udvikling af organisationer indenfor IT og Engineering. Virksomheden er grundlagt i 2021 af Jesper Ladehoff</blockquote>
             </div>
           </div>
         </div>
@@ -29,7 +41,23 @@
       <section class="section is-large" id="method">
         <div class="container">
           <div class="columns">
-            <div class="column">Hello Kitty</div>
+            <div class="column content">
+              <h1>Metodik</h1>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column content">
+              <p>
+                Med Ladehoff Management ApS er det ikke gjort med at skrive under på kontrakten.<br>
+                Der skal mere involvering til, og derfor lægger vi en plan for hver enkelt forløb. Vi forventningsafstemmer med vores stakeholders og arbejder målrettet mod at afdække markedet og lukke opgaven. Undervejs stræber vi mod en åben og ærlig dialog med vores kunder og kandidater.
+              </p>
+              <p>
+                Som virksomhed laver vi rekruttering indenfor alle brancher, men vores mål er at blive kendt for at levere specialister og ledere indenfor IT og Engineering i skræddersyede rekrutteringsforløb. Geografisk dækker vi hele Danmark.
+              </p>
+              <p>
+                For at understøtte evalueringsprocessen af de enkelte kandidater, tilbyder vi envidere individuelt sammensatte testmuligheder og inddragelse i feedback-processen. Som regel involveres udelukkende finalekandidaterne, men det planlægges i samarbejde med dig som kunde.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -38,10 +66,29 @@
       <section class="section is-large" id="services">
         <div class="container">
           <div class="columns">
-            <div class="column">#1</div>
-            <div class="column">#2</div>
-            <div class="column">#3</div>
-            <div class="column">#4</div>
+            <div class="column content">
+              <h1>Ydelser</h1>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column">
+              <div class="box content">
+                <h3>Rekruttering - Search &amp; Selection</h3>
+                <p>Både inklusiv annoncering og som Secret Search</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box content">
+                <h3>Test - planlægges individuelt fra forløb til forløb</h3>
+                <p>Baseret på SHL´s testportefølje og øvrige online testværktøjer</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box content">
+                <h3>HR On Demand</h3>
+                <p>Ledersparring, strategisparring og strategiudvikling eller bare en ekstra hånd til tiltrækning af de rette kompetencer</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -49,32 +96,11 @@
       <footer class="footer" id="contact">
         <div class="columns">
           <div class="column">
-            <div class="content">
-              <form class="box">
-                <input type="hidden" name="csrftoken" value="">
-                <div class="field">
-                  <label class="label">For- &amp; efternavn</label>
-                  <div class="control">
-                    <input class="input" type="text" name="fullname">
-                  </div>
-                </div>
-                <div class="field">
-                  <label class="label">E-mailadresse</label>
-                  <div class="control">
-                    <input class="input" type="mail" name="mailaddr">
-                  </div>
-                </div>
-                <div class="field">
-                  <label class="label">Firmanavn</label>
-                  <div class="control">
-                    <input class="input" type="text" name="companyname">
-                  </div>
-                </div>
-                <div class="buttons">
-                  <input type="submit" value="Send" class="button is-primary">
-                </div>
-              </form>
-            </div>
+            <div id="avatar"></div>
+          </div>
+          <div class="column">
+            <p>Telefon: <a href="tel:6135 9852">6135 9852</a></p>
+            <p>Mail: <a href="mailto:jla@ladehoffmanagement.dk">jla@ladehoffmanagement.dk</a></p>
           </div>
         </div>
       </footer>
@@ -92,14 +118,9 @@
             },
             "founder": {
               "@type": "Person",
-              "name": ""
+              "name": "Jesper Ladehoff"
             }
         }
       </script>
-      <div class="floating-button">
-        <a href="/">Top</a>
-      </div>
-      <script src="/js/form.js"></script>
-      <script src="/js/floating-button.js"></script>
     </body>
 </html>
