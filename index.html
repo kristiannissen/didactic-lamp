@@ -12,17 +12,26 @@
       <!-- Intro Section //-->
       <section class="section is-large" id="intro">
         <div class="container">
-          <div class="columns header">
-            <div class="column is-one-third">
-              <a href="/"><img src="/img/ladehoff-logo.png"></a>
-            </div>
+          <div class="columns header">            
             <div class="column">
-              <nav>
-                <ul>
-                  <li><a href="#method">Metodik</a></li>
-                  <li><a href="#services">Ydelser</a></li>
-                  <li><a href="#contact">Kontakt</a></li>
-                </ul>
+              <nav class="navbar" rol="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                  <a class="navbar-item" href="/">
+                    <img src="/img/ladehoff-logo.png">
+                  </a>
+                  <a class="navbar-burger" data-target="main-nav" aria-label="menu" aria-expanded="false" >
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                  </a>
+                </div>
+                <div id="main-nav" class="navbar-menu">
+                  <div class="navbar-start">
+                    <a class="navbar-item" href="#method">Metodik</a>
+                    <a class="navbar-item" href="#services">Ydelser</a>
+                    <a class="navbar-item" href="#contact">Kontakt</a>
+                  </div>
+                </div>
               </nav>
             </div>
           </div>
@@ -122,5 +131,6 @@
             }
         }
       </script>
+      <script src="/js/navigation.js"></script>
     </body>
 </html>
