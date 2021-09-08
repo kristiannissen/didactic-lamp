@@ -50,6 +50,9 @@ a {
 	display: flex;
 	align-items: center;
 }
+.navbar-item img {
+	max-height: 5.75rem;
+}
 nav ul {
 	display: flex;
 	justify-content: space-around;
@@ -68,6 +71,9 @@ nav ul li {
 		height: 270px;
 		border-radius: 50%;
 		margin: 0 auto;
+	}
+	.navbar-item img {
+		max-height: 3.75rem;
 	}
 }
 @media screen and (min-width: 1024px) {
