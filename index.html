@@ -6,14 +6,18 @@
         <title>Ladehoff Management ApS</title>
         <meta property="og:title" content="Ladehoff Management ApS" />
         <meta property="og:description" content="" />
-        <meta property="og:url" content="http://ladehoffmanagement.dk/" />
+        <meta property="og:url" content="https://ladehoffmanagement.dk/" />
         <meta property="og:type" content="website" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/css/site.css">
       <script type="text/javascript" src="/js/csrf.php"></script>
     </head>
-    <body>
+    <body class="home">
       <!-- Navigation Section //-->
       <section class="section">
         <div class="container">
@@ -44,14 +48,11 @@
       </section>
 
       <section class="section" id="dyn-main">
-        <div class="container is-vcentered">
-          <div class="columns">
-            <div class="column theme-image">
-              <img src="/img/handshake.jpg">
-            </div>
+        <div class="container">
+          <div class="columns is-vcentered has-text-centered">
             <div class="column fade-in content">
-              <h1 class="title is-1">Ladehoff Management</h1>
-              <p>Ladehoff Management er en konsulentvirksomhed, der primært arbejder med rekrutteringsydelser og udvikling af organisationer indenfor IT og Engineering.</p>
+              <h1 class="title is-1">Ladehoff Management ApS</h1>
+              <p>Ladehoff Management ApS er en konsulentvirksomhed, der primært arbejder med <span class="emp">rekrutteringsydelser</span> og <span class="emp">udvikling af organisationer</span> indenfor <span class="emp">IT</span> og <span class="emp">Engineering</span>.</p>
               <p>Virksomheden er grundlagt i 2021 af Jesper Ladehoff</p>
             </div>
           </div>
@@ -80,7 +81,9 @@
               </div>
             </div>
             <div class="columns">
-              <div class="column content">&copy; ladehoffmanagement.dk 2021</div>
+              <div class="column content"><center>
+                &copy; Ladehoff Management ApS
+              </center></div>
             </div>
           </div>
         </div>
@@ -89,8 +92,8 @@
         {
           "@context": "https://schema.org",
           "@type": "Organization",
-          "name": "",
-          "telephone": "",
+          "name": "Ladehoff Management ApS",
+          "telephone": "+4561359852",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Denmark",

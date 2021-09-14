@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // jQuery navigation pushstate
 function pushPage(uri) {
-	$('#dyn-main').load(uri +' #dyn-main');
+	$('#dyn-main').load(uri +' #dyn-main .container');
 	window.history.pushState({href: uri}, '', uri)
 }
 
