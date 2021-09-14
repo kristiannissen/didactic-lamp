@@ -5,30 +5,46 @@
 	max-height: 5.75rem;
 }
 .section {
-	max-width: 60rem;
+	max-width: 64rem;
 	margin: 0 auto;
 }
-section:first-of-type {
+.section:first-of-type {
 	padding: 0 3rem;
 }
+.footer {
+	padding: 3rem 1.5rem;
+}
+/* Typo */
 .title {
-	font-family: serif;
-	font-style: italic;
+	font-family: 'Lato', sans-serif;
+	color: #fafafa;
+}
+p {
+	font-family: 'Lora', serif;
 }
 a {
 	color: rgb(0, 86, 167);
 }
+.emp {
+	color: rgb(0, 86, 167);
+	font-weight: 700;
+}
 
 /* Features  */
-.theme-image {
-	max-width: 26.25rem;
+.home #dyn-main {
+	display: flex;
+	align-items: center;
 }
-/*
+
+/* Devices */
 @media screen and (min-width: 1024px)
-.section {
-    padding: 3rem 3rem;
+	.section:first-of-type {
+		height: 110px;
+	}
+	#dyn-main {
+		min-height: 500px;
+	}
 }
-*/
 
 /* Animations */
 .fade-in {
