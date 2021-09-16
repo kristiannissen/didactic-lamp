@@ -1,8 +1,19 @@
 /* CSS */
+:root {
+  --dark-blue: rgba(0, 86, 167, 1);
+  --light-blue: rgba(115, 157, 214, 1);
+}
 
 /* Overwrites */
 .navbar-item img {
-	max-height: 5.75rem;
+	max-height: 6.25rem;
+}
+a.navbar-item {
+  color: var(--dark-blue);
+}
+a.navbar-item:hover {
+  color: #fff;
+  background-color: var(--dark-blue);
 }
 .section {
 	max-width: 64rem;
@@ -23,10 +34,10 @@ p {
 	font-family: 'Lora', serif;
 }
 a {
-	color: rgb(0, 86, 167);
+	color: var(--dark-blue);
 }
 .emp {
-	color: rgb(0, 86, 167);
+	color: var(--dark-blue);
 	font-weight: 700;
 }
 
@@ -34,6 +45,22 @@ a {
 .home #dyn-main {
 	display: flex;
 	align-items: center;
+}
+.has-cta {
+  min-height: 10rem;
+  align-items: center;
+}
+.has-cta .button {
+  min-width: 300px;
+  background-color: var(--light-blue);
+  color: #fff;
+  border-color: transparent;
+  font-weight: 700;
+}
+.cta-spacer {
+  position: relative;
+  top: 0.5rem;
+  margin: 0 1.5rem;
 }
 
 /* Devices */

@@ -31,4 +31,5 @@ $(document).ready(function() {
 	window.addEventListener('popstate', function(evnt) {
 		if (evnt.state) pushPage($(evnt.target).attr('href'));
 	})
+
 })

@@ -6,18 +6,22 @@
         <title>Metodik | Ladehoff Management ApS</title>
         <meta property="og:title" content="Ladehoff Management ApS" />
         <meta property="og:description" content="" />
-        <meta property="og:url" content="http://ladehoffmanagement.dk/" />
+        <meta property="og:url" content="https://ladehoffmanagement.dk/" />
         <meta property="og:type" content="website" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/css/site.css">
       <script type="text/javascript" src="/js/csrf.php"></script>
     </head>
-    <body>
+    <body class="methodology">
       <!-- Navigation Section //-->
-      <section class="section is-large">
+      <section class="section">
         <div class="container">
-          <div class="columns header">            
+          <div class="columns">            
             <div class="column">
               <nav class="navbar" rol="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
@@ -31,7 +35,7 @@
                   </a>
                 </div>
                 <div id="main-nav" class="navbar-menu">
-                  <div class="navbar-start">
+                  <div class="navbar-end">
                     <a class="navbar-item" href="/metodik/">Metodik</a>
                     <a class="navbar-item" href="/ydelser/">Ydelser</a>
                     <a class="navbar-item" href="/oekonomi/">Økonomi</a>
@@ -43,24 +47,63 @@
         </div>
       </section>
 
-      <section class="section is-large" id="dyn-main">
+      <section class="section" id="dyn-main">
         <div class="container">
           <div class="columns">
-            <div class="column">
-              <img src="/img/meeting.jpg">
+            <div class="column has-theme-img">
+              <img src="https://place-hold.it/452x166">
             </div>
-            <div class="column content">
-              <h1>Metodik</h1>
-              <p>la la la</p>
+            <div class="column fade-in content">
+              <h1 class="title is-1">Metodik</h1>
+              <h2 class="subtitle">Med Ladehoff Management ApS er det ikke gjort med at skrive under på kontrakten</h2>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column">
+              Der skal mere involvering til, og derfor lægger vi en plan for hver enkelt forløb. Vi forventningsafstemmer med vores stakeholders og arbejder målrettet mod at afdække markedet og lukke opgaven. Undervejs stræber vi mod en åben og ærlig dialog med vores kunder og kandidater.
+            </div>
+            <div class="column">
+              Som virksomhed laver vi rekruttering indenfor alle brancher, men vores mål er at blive kendt for at levere specialister og ledere indenfor IT og Engineering i skræddersyede rekrutteringsforløb. Geografisk dækker vi hele Danmark.
+            </div>
+            <div class="column">
+              For at understøtte evalueringsprocessen af de enkelte kandidater, tilbyder vi envidere individuelt sammensatte testmuligheder og inddragelse i feedback-processen. Som regel involveres udelukkende finalekandidaterne, men det planlægges i samarbejde med dig som kunde.
+            </div>
+          </div>
+          <!-- CTA Container //-->
+          <div class="columns has-cta">
+            <div class="column has-text-centered">
+              <a href="#" class="button">Ring op</a> <span class="cta-spacer">eller</span> <a href="#" class="button">Send email</a>
             </div>
           </div>
         </div>
       </section>
 
       <footer class="footer">
-        <div class="columns">
-          <div class="column">
-            Footer
+        <div class="section">
+          <div class="container">
+            <div class="columns">
+              <div class="column content">
+                <h4 class="title is-4">Kontakt</h4>
+                <p>Mail: <a href="mailto:jla@ladehoffmanagement.dk">jla@ladehoffmanagement.dk</a></p>
+                <p>Mobil: <a href="tel:+456135 9852">6135 9852</a></p>
+              </div>
+              <div class="column content">
+                <h4 class="title is-4">Menu</h4>
+                <nav>
+                  <a class="navbar-item" href="/metodik/">Metodik</a>
+                  <a class="navbar-item" href="/ydelser/">Ydelser</a>
+                  <a class="navbar-item" href="/oekonomi/">Økonomi</a>
+                </nav>
+              </div>
+              <div class="column content">
+                <h4 class="title is-4">Social</h4>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column content"><center>
+                &copy; Ladehoff Management ApS
+              </center></div>
+            </div>
           </div>
         </div>
       </footer>
@@ -68,8 +111,8 @@
         {
           "@context": "https://schema.org",
           "@type": "Organization",
-          "name": "",
-          "telephone": "",
+          "name": "Ladehoff Management ApS",
+          "telephone": "+4561359852",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Denmark",
