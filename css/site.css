@@ -10,6 +10,7 @@
 }
 a.navbar-item {
   color: var(--dark-blue);
+  font-weight: 700;
 }
 a.navbar-item:hover {
   color: #fff;
@@ -42,9 +43,10 @@ a {
 }
 
 /* Features  */
-.home #dyn-main {
+#dyn-main .home {
 	display: flex;
 	align-items: center;
+    min-height: 500px;
 }
 .has-cta {
   min-height: 10rem;
@@ -64,12 +66,12 @@ a {
 }
 
 /* Devices */
-@media screen and (min-width: 1024px)
+@media screen and (min-width: 1024px) {
 	.section:first-of-type {
 		height: 110px;
 	}
 	#dyn-main {
-		min-height: 500px;
+		
 	}
 }
 
