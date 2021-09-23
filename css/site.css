@@ -25,6 +25,7 @@ a.navbar-item:hover {
 }
 .footer {
 	padding: 3rem 1.5rem;
+    background-color: #fff;
 }
 /* Typo */
 .title {
@@ -66,6 +67,7 @@ a {
 }
 /* Sections */
 .services .box {
+    height: 250px;
 }
 /* Devices */
 @media screen and (min-width: 1024px) {
