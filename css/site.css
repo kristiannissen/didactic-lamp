@@ -64,7 +64,9 @@ a {
   top: 0.5rem;
   margin: 0 1.5rem;
 }
-
+/* Sections */
+.services .box {
+}
 /* Devices */
 @media screen and (min-width: 1024px) {
 	.section:first-of-type {
