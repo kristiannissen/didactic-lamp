@@ -21,25 +21,27 @@ function pushPage(uri, title) {
   window.history.pushState({ href: uri }, title, uri);
 }
 
-$(document).ready(function () { 
-$(".navbar .navbar-item").on("click", function (evnt) {
-    var navItem = $(evnt.target);
-    if (navItem.attr("href") === undefined) {
-      navItem = navItem.parent();
-    }
+$(document).ready(function () {
+  $(".navbar .navbar-item")
+    .on("click", function (evnt) {
+      var navItem = $(evnt.target);
+      if (navItem.attr("href") === undefined) {
+        navItem = navItem.parent();
+      }
 
-    pushPage(navItem.attr("href"));
+      pushPage(navItem.attr("href"));
 
-    return false;
-  }).each(function(i, item) {
+      return false;
+    })
+    .each(function (i, item) {
       // For direct traffic
-    var item = $(item)
+      var item = $(item);
       if (item.attr("href") === location.pathname) {
-        item.toggleClass("is-current")
-    }
-  });
+        item.toggleClass("is-current");
+      }
+    });
   window.addEventListener("popstate", function (evnt) {
-    var t = $(evnt.target)
-      if (evnt.state) pushPage(t.attr("href"), "");
+    var t = $(evnt.target);
+    if (evnt.state) pushPage(t.attr("href"), "");
   });
 });
