@@ -78,7 +78,15 @@ a {
 		
 	}
 }
-
+@media screen and (max-width: 768px) {
+    .navbar-item img {
+        max-height: 3.75rem;
+    }
+    .cta-spacer {
+        display: block;
+        top: 0;
+    }
+}
 /* Animations */
 .fade-in {
 	animation: fadeIn 4s;
