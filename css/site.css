@@ -6,7 +6,7 @@
 
 /* Overwrites */
 .navbar-item img {
-	max-height: 6.25rem;
+  max-height: 6.25rem;
 }
 a.navbar-item {
   color: var(--dark-blue);
@@ -17,37 +17,37 @@ a.navbar-item:hover {
   background-color: var(--dark-blue);
 }
 .section:not(:first-of-type) {
-	max-width: 64rem;
-	margin: 0 auto;
+  max-width: 64rem;
+  margin: 0 auto;
 }
 .section:first-of-type {
-	padding: 0 3rem;
+  padding: 0 3rem;
 }
 .footer {
-	padding: 0;
-    background-color: #fff;
+  padding: 0;
+  background-color: #fff;
 }
 /* Typo */
 .title {
-	font-family: 'Lato', sans-serif;
-	color: #fafafa;
+  font-family: "Lato", sans-serif;
+  color: #fafafa;
 }
 p {
-	font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 a {
-	color: var(--dark-blue);
+  color: var(--dark-blue);
 }
 .emp {
-	color: var(--dark-blue);
-	font-weight: 700;
+  color: var(--dark-blue);
+  font-weight: 700;
 }
 
 /* Features  */
 #dyn-main .home {
-	display: flex;
-	align-items: center;
-    min-height: 500px;
+  display: flex;
+  align-items: center;
+  min-height: 500px;
 }
 .has-cta {
   min-height: 10rem;
@@ -67,31 +67,34 @@ a {
 }
 /* Sections */
 .services .box {
-    height: 250px;
+  height: 250px;
 }
 /* Devices */
 @media screen and (min-width: 1024px) {
-	.section:first-of-type {
-		height: 110px;
-	}
-	#dyn-main {
-		
-	}
+  .section:first-of-type {
+    height: 110px;
+  }
+  #dyn-main {
+  }
 }
 @media screen and (max-width: 768px) {
-    .navbar-item img {
-        max-height: 3.75rem;
-    }
-    .cta-spacer {
-        display: block;
-        top: 0;
-    }
+  .navbar-item img {
+    max-height: 3.75rem;
+  }
+  .cta-spacer {
+    display: block;
+    top: 0;
+  }
 }
 /* Animations */
 .fade-in {
-	animation: fadeIn 4s;
+  animation: fadeIn 4s;
 }
 @keyframes fadeIn {
-	0% {opacity: 0;}
-	100% {opacity: 1}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

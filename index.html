@@ -1,89 +1,118 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Ladehoff Management ApS</title>
-        <meta property="og:title" content="Ladehoff Management ApS" />
-        <meta property="og:description" content="" />
-        <meta property="og:url" content="https://ladehoffmanagement.dk/" />
-        <meta property="og:type" content="website" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/css/site.css">
-      <script type="text/javascript" src="/js/csrf.php"></script>
-    </head>
-    <body>
-      <!-- Navigation Section //-->
-      <section class="section">
-        <div class="container">
-          <div class="columns">            
-            <div class="column">
-              <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-                <div class="navbar-brand">
-                  <a class="navbar-item" href="/">
-                    <img src="/img/ladehoff-logo.png">
-                  </a>
-                  <a class="navbar-burger" data-target="main-nav" aria-label="menu" aria-expanded="false" >
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                  </a>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ladehoff Management ApS</title>
+    <meta property="og:title" content="Ladehoff Management ApS" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="https://ladehoffmanagement.dk/" />
+    <meta property="og:type" content="website" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/site.css" />
+    <script type="text/javascript" src="/js/csrf.php"></script>
+  </head>
+  <body>
+    <!-- Navigation Section //-->
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <nav
+              class="navbar is-fixed-top"
+              role="navigation"
+              aria-label="main navigation"
+            >
+              <div class="navbar-brand">
+                <a class="navbar-item" href="/">
+                  <img src="/img/ladehoff-logo.png" />
+                </a>
+                <a
+                  class="navbar-burger"
+                  data-target="main-nav"
+                  aria-label="menu"
+                  aria-expanded="false"
+                >
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </a>
+              </div>
+              <div id="main-nav" class="navbar-menu">
+                <div class="navbar-end">
+                  <a class="navbar-item" href="/metodik/">Metodik</a>
+                  <a class="navbar-item" href="/ydelser/">Ydelser</a>
+                  <a class="navbar-item" href="/oekonomi/">Økonomi</a>
+                  <a class="navbar-item" href="/om/">Om firmaet</a>
                 </div>
-                <div id="main-nav" class="navbar-menu">
-                  <div class="navbar-end">
-                    <a class="navbar-item" href="/metodik/">Metodik</a>
-                    <a class="navbar-item" href="/ydelser/">Ydelser</a>
-                    <a class="navbar-item" href="/oekonomi/">Økonomi</a>
-                    <a class="navbar-item" href="/om/">Om firmaet</a>
-                  </div>
-                </div>
-              </nav>
-            </div>
+              </div>
+            </nav>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section" id="dyn-main">
-        <div class="container home fade-in">
-          <div class="columns is-vcentered has-text-centered">
-            <div class="column  content">
-              <h1 class="title is-1">Ladehoff Management ApS</h1>
-              <p>Ladehoff Management ApS er en konsulentvirksomhed, der primært arbejder med <span class="emp">rekrutteringsydelser</span> og <span class="emp">udvikling af organisationer</span> indenfor <span class="emp">IT</span> og <span class="emp">Engineering</span>.</p>
-              <p>Virksomheden er grundlagt i 2021 af Jesper Ladehoff</p>
-            </div>
+    <section class="section" id="dyn-main">
+      <div class="container home fade-in">
+        <div class="columns is-vcentered has-text-centered">
+          <div class="column content">
+            <h1 class="title is-1">Ladehoff Management ApS</h1>
+            <p>
+              Ladehoff Management ApS er en konsulentvirksomhed, der primært
+              arbejder med <span class="emp">rekrutteringsydelser</span> og
+              <span class="emp">udvikling af organisationer</span> indenfor
+              <span class="emp">IT</span> og
+              <span class="emp">Engineering</span>.
+            </p>
+            <p>Virksomheden er grundlagt i 2021 af Jesper Ladehoff</p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <footer class="footer"><!-- https://getwaves.io/ //-->
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path fill="#0099ff" fill-opacity="0.42" d="M0,160L60,133.3C120,107,240,53,360,32C480,11,600,21,720,64C840,107,960,181,1080,202.7C1200,224,1320,192,1380,176L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
-        </svg>
-      </footer>
-      <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "Organization",
-          "name": "Ladehoff Management ApS",
-          "telephone": "+4561359852",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Denmark",
-            "postalCode": "",
-            "streetAddress": ""
-            },
-            "founder": {
-              "@type": "Person",
-              "name": "Jesper Ladehoff",
-              "image": "https://ladehoffmanagement.dk/img/jesper-ladehoff.jpg",
-            }
+    <footer class="footer">
+      <!-- https://getwaves.io/ //-->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0099ff"
+          fill-opacity="0.42"
+          d="M0,160L60,133.3C120,107,240,53,360,32C480,11,600,21,720,64C840,107,960,181,1080,202.7C1200,224,1320,192,1380,176L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+    </footer>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Ladehoff Management ApS",
+        "telephone": "+4561359852",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Denmark",
+          "postalCode": "",
+          "streetAddress": ""
+        },
+        "founder": {
+          "@type": "Person",
+          "name": "Jesper Ladehoff",
+          "image": "https://ladehoffmanagement.dk/img/jesper-ladehoff.jpg"
         }
-      </script>
-      <script src="/js/navigation.js"></script>
-    </body>
+      }
+    </script>
+    <script src="/js/navigation.js"></script>
+  </body>
 </html>
