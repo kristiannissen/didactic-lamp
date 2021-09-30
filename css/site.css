@@ -67,7 +67,6 @@ a {
 }
 /* Sections */
 .services .box {
-  height: 250px;
 }
 /* Devices */
 @media screen and (min-width: 1024px) {
