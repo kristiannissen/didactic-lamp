@@ -12,6 +12,13 @@ document.addEventListener("DOMContentLoaded", function () {
         t.classList.toggle("is-active");
       });
     });
+    var a = Array.prototype.slice.call(
+        document.querySelectorAll("#main-nav .navbar-item"), 0)
+    a.forEach(function (elm) {
+        elm.addEventListener("click", function(evnt) {
+            
+        })
+    })
   }
 });
 
