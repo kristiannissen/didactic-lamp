@@ -13,12 +13,12 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
     var a = Array.prototype.slice.call(
-        document.querySelectorAll("#main-nav .navbar-item"), 0)
+      document.querySelectorAll("#main-nav .navbar-item"),
+      0
+    );
     a.forEach(function (elm) {
-        elm.addEventListener("click", function(evnt) {
-            
-        })
-    })
+      elm.addEventListener("click", function (evnt) {});
+    });
   }
 });
 
