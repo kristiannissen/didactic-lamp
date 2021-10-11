@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // jQuery navigation pushstate
+/*
 function pushPage(uri, title) {
   $("#dyn-main").load(uri + " #dyn-main .container");
   window.history.pushState({ href: uri }, title, uri);
@@ -52,3 +53,4 @@ $(document).ready(function () {
     if (evnt.state) pushPage(t.attr("href"), "");
   });
 });
+*/

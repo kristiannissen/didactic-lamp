@@ -87,7 +87,7 @@ a {
 }
 /* Animations */
 .fade-in {
-  animation: fadeIn 4s;
+  /* animation: fadeIn 4s;*/
 }
 @keyframes fadeIn {
   0% {
