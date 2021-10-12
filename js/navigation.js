@@ -22,13 +22,30 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+$(document).ready(function() {
+	var arr = [];
+	var images = [
+		"dylan-gillis-KdeqA3aTnBY-unsplash_450.jpg",
+		"dylan-gillis-KdeqA3aTnBY-unsplash_327.jpg",
+		"mediensturmer-aWf7mjwwJJo-unsplash_450.jpg",
+		"mediensturmer-aWf7mjwwJJo-unsplash_327.jpg",
+		"cytonn-photography-n95VMLxqM2I-unsplash_450.jpg",
+		"cytonn-photography-n95VMLxqM2I-unsplash_327.jpg",
+		"jesper-ladehoff_450.jpg",
+		"jesper-ladehoff_327.jpg"
+	];
+	for (var i = 0; i < images.length; i++) {
+		arr[i] = new Image();
+		arr[i].src = "/img/"+ images[i];
+	}
+})
+
 // jQuery navigation pushstate
-/*
 function pushPage(uri, title) {
   $("#dyn-main").load(uri + " #dyn-main .container");
   window.history.pushState({ href: uri }, title, uri);
 }
-
+/*
 $(document).ready(function () {
   $(".navbar .navbar-item")
     .on("click", function (evnt) {
